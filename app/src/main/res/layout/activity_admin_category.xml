@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.AdminCategoryActivity"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/tv_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose category"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <LinearLayout
+        android:id="@+id/linear_choose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_category"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="7dp"
+            android:src="@drawable/women"/>
+        <ImageView
+            android:id="@+id/img_2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="7dp"
+            android:src="@drawable/men"/>
+        <ImageView
+            android:id="@+id/img_3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/shoes"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_choose_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_choose"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/img_4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="7dp"
+            android:src="@drawable/jewelery"/>
+
+        <ImageView
+            android:id="@+id/img_1_1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="7dp"
+            android:src="@drawable/accsess"
+            />
+        <ImageView
+            android:id="@+id/img_2_2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/home"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_choose_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_choose_2"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/img_3_3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="7dp"
+            android:src="@drawable/phone"/>
+        <ImageView
+            android:id="@+id/img_4_4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="7dp"
+            android:src="@drawable/sport"/>
+
+        <ImageView
+            android:id="@+id/img_1_11"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/books"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_choose_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_choose_3"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_2_22"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="7dp"
+            android:src="@drawable/canctovars"/>
+        <ImageView
+            android:id="@+id/img_3_33"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="7dp"
+            android:src="@drawable/toys"/>
+        <ImageView
+            android:id="@+id/img_4_44"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/care"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_choose_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_choose_4"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_1_111"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="7dp"
+            android:src="@drawable/garden"
+            />
+        <ImageView
+            android:id="@+id/img_2_222"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="7dp"
+            android:src="@drawable/travel"/>
+        <ImageView
+            android:id="@+id/img_3_333"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/robot"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_choose_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_choose_5"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_4_444"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@color/white"/>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

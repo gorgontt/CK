@@ -1,0 +1,87 @@
+[versions]
+agp = "8.3.2"
+androidImageCropper = "2.8.0"
+androidxJunit = "1.1.1"
+cardview = "1.0.0"
+circleimageview = "3.1.0"
+constraintlayoutVersion = "2.0.4"
+espressoCoreVersion = "3.2.0"
+firebaseAnalytics = "22.0.0"
+firebaseBom = "33.0.0"
+firebaseCore = "21.1.1"
+firebaseDatabaseVersion = "19.6.0"
+firebaseUiDatabase = "6.1.0"
+firebaseUiDatabaseVersion = "8.0.2"
+githubMaterial = "1.2.5"
+googleMaterial = "1.3.0"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+lifecycleLivedataKtxVersion = "2.2.0"
+lifecycleViewmodelKtxVersion = "2.2.0"
+material = "1.11.0"
+activity = "1.8.0"
+constraintlayout = "2.1.4"
+googleServices = "4.4.1"
+firebaseDatabase = "21.0.0"
+lifecycleLivedataKtx = "2.7.0"
+lifecycleViewmodelKtx = "2.7.0"
+materialVersion = "1.3.1"
+navigationFragment = "2.7.7"
+navigationFragmentVersion = "2.2.2"
+navigationUi = "2.7.7"
+navigationUiVersion = "2.3.5"
+pagingRuntime = "3.2.1"
+paperdb = "2.7.1"
+paperdbVersion = "2.7.2"
+picasso = "2.71828"
+recyclerview = "1.3.2"
+firebaseAuth = "23.0.0"
+
+[libraries]
+android-image-cropper = { module = "com.theartofdev.edmodo:android-image-cropper", version.ref = "androidImageCropper" }
+cardview = { module = "androidx.cardview:cardview", version.ref = "cardview" }
+circleimageview = { module = "de.hdodenhof:circleimageview", version.ref = "circleimageview" }
+constraintlayout-v204 = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayoutVersion" }
+espresso-core-v320 = { module = "androidx.test.espresso:espresso-core", version.ref = "espressoCoreVersion" }
+firebase-ads = { module = "com.google.firebase:firebase-ads", version.ref = "firebaseAuth" }
+firebase-analytics = { module = "com.google.firebase:firebase-analytics", version.ref = "firebaseAnalytics" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-core = { module = "com.google.firebase:firebase-core", version.ref = "firebaseCore" }
+firebase-database-v1960 = { module = "com.google.firebase:firebase-database", version.ref = "firebaseDatabaseVersion" }
+firebase-storage = { module = "com.google.firebase:firebase-storage", version.ref = "firebaseDatabase" }
+firebase-ui-database = { module = "com.firebaseui:firebase-ui-database", version.ref = "firebaseUiDatabase" }
+firebase-ui-database-v802 = { module = "com.firebaseui:firebase-ui-database", version.ref = "firebaseUiDatabaseVersion" }
+firebase-ui-storage = { module = "com.firebaseui:firebase-ui-storage", version.ref = "firebaseUiDatabaseVersion" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+junit-v111 = { module = "androidx.test.ext:junit", version.ref = "androidxJunit" }
+lifecycle-livedata-ktx-v220 = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycleLivedataKtxVersion" }
+lifecycle-viewmodel-ktx-v220 = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtxVersion" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+google-services = { group = "com.google.gms", name = "google-services", version.ref = "googleServices" }
+firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
+lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycleLivedataKtx" }
+lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
+material-v125 = { module = "com.github.rey5137:material", version.ref = "githubMaterial" }
+material-v130 = { module = "com.google.android.material:material", version.ref = "googleMaterial" }
+navigation-fragment = { group = "androidx.navigation", name = "navigation-fragment", version.ref = "navigationFragment" }
+navigation-fragment-v222 = { module = "androidx.navigation:navigation-fragment", version.ref = "navigationFragmentVersion" }
+navigation-ui = { group = "androidx.navigation", name = "navigation-ui", version.ref = "navigationUi" }
+navigation-ui-v235 = { module = "androidx.navigation:navigation-ui", version.ref = "navigationUiVersion" }
+paging-runtime = { module = "androidx.paging:paging-runtime", version.ref = "pagingRuntime" }
+paperdb = { module = "io.paperdb:paperdb", version.ref = "paperdb" }
+picasso = { module = "com.squareup.picasso:picasso", version.ref = "picasso" }
+pilgr-paperdb = { module = "io.github.pilgr:paperdb", version.ref = "paperdbVersion" }
+recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerview" }
+rey5137-material = { module = "com.github.rey5137:material", version.ref = "materialVersion" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+
